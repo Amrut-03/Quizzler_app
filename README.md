@@ -1,16 +1,37 @@
-# quizzler
+# Quizzler App
 
-A new Flutter project.
+Welcome to the Quizzler app, a Flutter-based application designed to help users in MCQ based Exam.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Set of Questions :** It will contains a question will true or false options.
 
-A few resources to get you started if this is your first Flutter project:
+- **Bottom Row :** It can shows the number correct question in the form of green tick.
+  
+- **True Button :** It will trigger when you answer is Right.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **False Button :** It will trigger when you answer is Wrong.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ScreenRecording
+
+https://github.com/Amrut-03/Quizzler_app/assets/125724968/b4e7f605-5116-42e6-b019-b3145938be51
+
+## Code Structure
+
+The code is organized into multiple Dart files:
+
+- **main.dart:** Contains the main file which Navigates to the QuizePage of the app, QuizePage is the Class which contain overall structure and Ui of the app.
+- **question.dart:** It Contains the set of all Questions.
+- **quize_page.dart:** It Contains the main Logic to get list of question and also answers from question.dart.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Amrut-03/Quizzler_app
+   
+## Dependencies
+
+  ```bash
+   rflutter_alert: ^2.0.7
